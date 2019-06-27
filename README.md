@@ -147,7 +147,7 @@ const store = new Vuex.Store({
 
 ## 7.4 Vuexのコンセプト
 
-Vuexはライブラリとしての機能だけでなく、実装パターンも含めてVuexである。
+Vuexはライブラリとしての機能だけでなく、実装パターンも含めてVuexである。
 
 ### 7.4.1 ストア
 
@@ -194,7 +194,7 @@ const store = new Vuex.Store({
   // 7.4.4 ミューテーション
   mutations: {
     increment (satate, payload) {
-      // ペイロード内の値を使ってステートを更新
+      // ペイロード内の値を使ってステートを更新
       state.count += payload.amount
     }
   },
@@ -280,7 +280,7 @@ gettersオプションに関数を持つオブジェクトを使用する。
 * commit : ミューテーションを実行するメソッド
 
 上の例では「ctx」オブジェクトに[state getters dispatch commit]全て内包されているが、
-```第一引数のコンテキストを分割代入も可能```。サンプルコードの「store.js」を参照。
+```第一引数のコンテキストを分割代入も可能```。サンプルコードの「store.js」を参照。
 
 ```
 // ctxオブジェクト使用例
